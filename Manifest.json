@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Vanish Mod",
+    "description": "Adds a /vanish command for invisibility",
+    "uuid": "123e4567-e89b-12d3-a456-426614174000",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "scripting",
+      "uuid": "123e4567-e89b-12d3-a456-426614174001",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.0.0"
+    }
+  ],
+  "min_engine_version": "1.20.0"
+}
